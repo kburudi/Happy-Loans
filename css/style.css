@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#main-header {
+  width: 100%;
+  max-height: 60px;
+  background-color: #8dbf41;
+}
+
+#main-nav {
+  padding: 15px 30px 20px 10px;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: slategray;
+}
+
+li.nav-item {
+  padding: 10px 15px;
+}
+
+a.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+section.image-info {
+  height: 450px;
+  width: 100%;
+  background-image: url(../images/facial-expression-furnitures-indoors-1595387.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.brand-name {
+  font-size: 25px;
+  word-spacing: -1px;
+  font-weight: 700;
+}
+
+div.brand-name {
+  padding: 100px 150px 10px;
+  position: relative;
+  color: #f0f0f0;
+}
+
+div.motto {
+  padding-left: 170px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.btn {
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  transition: opacity 400ms ease-in-out;
+}
+
+button.more-info {
+  margin-left: 150px;
+  padding: 15px 35px;
+  background-color: #bf0404;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+section#how-it-works {
+  padding: 30px;
+  text-align: center;
+}
+
+p.how-ttl {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+div.how-steps {
+  display: flex;
+  width: 85%;
+  margin: 30px auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div.step-item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px #f1f1f1;
+  padding: 20px;
+  flex-basis: 230px;
+  width: 230px;
+  margin-bottom: 20px;
+}
+
+div.step-no {
+  width: 40px;
+  height: 40px;
+  padding: 20px 10px 10px 10px;
+  margin: auto auto 20px;
+  border: 1.5px solid #0378a6;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #0378a6;
+  font-weight: 400;
+  text-align: center;
+}
+
+.step-desc {
+  text-align: center;
+}
+
+.step-desc-head {
+  font-size: 14px;
+  font-weight: 550;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.btn-block {
+  display: inline-block;
+  width: 100%;
+  background-color: #0378a6;
+  padding: 10px;
+  color: #fff;
+}
+
+a.read-m-btn {
+  margin-left: -8px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+}
+
+footer#main-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding: 40px 50px 30px;
+  color: #f0f0f0;
+  background-color: #262626;
+}
+
+div.footer-div {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.how-to-head,
+.how-it-links {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.how-it-links {
+  font-size: 17px;
+  text-transform: lowercase;
+}
+
+.how-to-head {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+a.login {
+  background-color: #262626;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+a.login:hover {
+  background-color: #626262;
+  transition: background 400ms ease-in-out;
+}
+
+.footer-link:hover {
+  color: #f2f2f2;
+}
+
+.image-box {
+  width: 100%;
+  text-align: center;
+  margin-left: -85px;
+}
+
+.round-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+  transition: display 1000ms ease-in;
+}
+
+.active {
+  display: block;
+  transition: display 1000ms ease-in;
+}
+
+.light-box {
+  width: 100%;
+  height: 100vh;
+  background-color: #26262666;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 150px;
+  z-index: 3;
+}
+
+div.login-box {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 2px;
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.form-section {
+  width: 92%;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.input-item {
+  width: 92%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc4c4;
+  border-radius: 4px;
+}
+
+.bg-green {
+  background-color: #70a029;
+}
+
+input.bg-green {
+  font-size: 18px;
+  font-weight: 500;
+}
+input.bg-green:hover {
+  background-color: #8dbf41;
+  opacity: 1;
+  transition: background 400ms ease-in-out;
+}
+
+.signup-link {
+  color: #0378a6;
+}
+
+.signup-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+  transition: text 500ms ease-in-out;
+}
+
+.login-head {
+  text-align: center;
+  background-color: #70a029;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.hide-light-box {
+  color: #bf0404;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  section#how-it-works {
+    padding: 15px;
+  }
+
+  div.how-steps {
+    width: 100%;
+  }
+
+  div.step-item {
+    padding: 10px;
+    width: 220px;
+  }
+
+  div.brand-name {
+    padding: 100px 80px 10px;
+  }
+
+  div.motto {
+    padding-left: 80px;
+  }
+
+  button.more-info {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (max-width: 430px) {
+  div.step-item {
+    padding: 10px;
+    width: 250px;
+  }
+
+  div.brand-name {
+    padding: 100px 40px 10px;
+  }
+
+  div.motto {
+    padding-left: 40px;
+  }
+
+  button.more-info {
+    margin-left: 60px;
+  }
+}
